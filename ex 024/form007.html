@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>Exemplos de formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p><label for="iest">estado</label>
+        <select name="estado" id="iest">
+<optgroup label="Região Centroeste">
+    <option value="MG">Minas Gerais</option>
+    <option value="PE">Pernambuco</option>
+    <option value="SP">são paulo</option>
+</optgroup>
+
+<optgroup label="Região Suldeste">
+    <option value="PA">Pará</option>
+    <option value="Rs">Rio Grande do Sul</option>
+    <option value="MT" selected>Mata Grosso</option>
+</optgroup>
+</p>
+<p>
+   <label for="img">mensagens</label><br>
+        <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+    
+</p>
+
+<p>
+
+<input type="submit" value="enviar">
+<input type="reset" value="limpar">
+
+</p>
+
+
+    </form>
+</body>
+</html>
