@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexibe Box</title>
+    <style>
+div.container{
+background-color: lightsalmon;
+display: flex;
+flex-flow: row nowrap;
+}
+div.item{
+background-color: blue;
+border: 1px solid black;
+text-align: center;
+
+
+
+}
+div#ca{
+
+
+flex: 1 0 200px;
+}
+div#cb{
+    flex: 1 1 150px
+}
+div#cc{
+    flex: 1 8 auto;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="ca">A</div>
+        <div class="item" id="cb">b</div>
+        <div class="item" id="cc">c</div>
+        
+
+    </div>
+    
+</body>
+</html>
